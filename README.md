@@ -16,9 +16,11 @@ find_phone.py: predict the center of a phone given a image
 (assume you place "find_phone" folder, train_phone_finder.py, and find_phone.py at the same directory)
 
 To train:
+
 Linux & Windows: python train_phone_finder.py 
 
 To predict:
+
 Windows: python find_phone.py find_phone\100.jpg
 
 Linux: python find_phone.py find_phone/100.jpg
