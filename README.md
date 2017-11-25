@@ -20,6 +20,7 @@ Linux & Windows: python train_phone_finder.py
 
 To predict:
 Windows: python find_phone.py find_phone\100.jpg
+
 Linux: python find_phone.py find_phone/100.jpg
 
 # If questions, please read the summary and analysis PDF document or email me.
