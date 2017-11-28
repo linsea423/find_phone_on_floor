@@ -66,8 +66,8 @@ else:
 #    cv2.destroyAllWindows()
     
     #normalized to the shape
-    cx = cx/tempImg.shape[1]
-    cy = cy/tempImg.shape[0]
+    cx = 1.*cx/tempImg.shape[1]
+    cy = 1.*cy/tempImg.shape[0]
     
     #I am using Python 3.5, I can use much simpler syntax in python 3.5
     #I hope this works for Python 2.7. If it doesn't, please comment these two lines and uncomment the last line
