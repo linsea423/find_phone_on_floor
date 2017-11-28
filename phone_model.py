@@ -28,6 +28,7 @@ class phone_img:
         
         ###Attempt to identify the black screen of the phone based on histogram of the images
         hist,bins = np.histogram(img_gray, 256, [0,256]) #Compute the histogram
+        hist = np.float32(hist)
         cdf = hist.cumsum()
         cdf = cdf/cdf.max()
          
